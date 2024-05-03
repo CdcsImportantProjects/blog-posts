@@ -10,7 +10,7 @@ def readFile(file):
     f_obj.close()
     return content
 def writeFile(file,c):
-    f_obj = open(file,"w")
+    f_obj = open(file,"x")
     content = f_obj.write(c)
     f_obj.close()
     return content
