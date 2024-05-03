@@ -27,4 +27,9 @@ jobs:
       # Runs a single command using the runners shell
       - name: Update blog metadata
         run: |
-          echo hi!
+          git config --global user.email "<>"
+          git config --global user.name "Post Updater"
+          py ./update_metadata.py
+          git add *
+          git commit -m "Update Metadata and stuff..."
+          git push
