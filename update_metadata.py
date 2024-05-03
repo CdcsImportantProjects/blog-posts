@@ -97,13 +97,13 @@ for folder in os.walk("./posts"):
             "chapters":getChapters(readFile(file)),
             "file_url":f"https://raw.githubusercontent.com/CdcsImportantProjects/blog-posts/main/posts/{file}",
             "posted_at":time.time()
-        }))
+        },indent=4))
         GLOBAL_index.append({
             "id":getFilename(file),
             "title":getTitle(readFile(file)),
             "keywords":getKeywords(readFile(file)),
         })
-writeFile("./metadata/search_index/index.json",json.dumps(GLOBAL_index))
+writeFile("./metadata/search_index/index.json",json.dumps(GLOBAL_index,indent=4))
 hp_randomPosts = []
 for i in range(5):
     hp_randomPosts.append(random.choice(GLOBAL_index))
@@ -111,5 +111,6 @@ homepage = {
     "random_line":random.choice(lines),
     "posts":hp_randomPosts
 }
-writeFile("./homepage.json",json.dumps(homepage))    
-        
+writeFile("./homepage.json",json.dumps(homepage,indent=4))    
+for data in GLOBAL_index:
+    print(data["id"],','.join(data["keywords"]))
