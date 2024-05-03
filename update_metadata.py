@@ -7,6 +7,9 @@ lines = []
 def readFile(file):
     f_obj = open(f"./posts/{file}","r")
     content = f_obj.read()
+    for line in content.split("\n"):
+        if len(line) > 0:
+            lines.append(line)
     f_obj.close()
     return content
 def writeFile(file,c):
@@ -48,8 +51,6 @@ def getKeywords(file_c):
     return top_words
 def getTitle(file_c):
     for line in file_c.split("\n"):
-        if len(line) > 0:
-            lines.append(line)
         if line.startswith("# "):
             return line.strip("# ")
             break
