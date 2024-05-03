@@ -27,6 +27,8 @@ jobs:
       - name: Update blog metadata
         run: |
           echo hi > hello.txt
+          git config --global user.email "<>"
+          git config --global user.name "github-actions"
           git add *
           git commit -m "HELLO!" 
           git push
