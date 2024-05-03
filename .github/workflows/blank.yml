@@ -27,17 +27,4 @@ jobs:
       # Runs a single command using the runners shell
       - name: Update blog metadata
         run: |
-          echo hi > hello.txt
-          git config --global user.email "<>"
-          git config --global user.name "Post Updater"
-          git add *
-          git commit -m "Update" 
-          git push
-          echo 1 > 1.txt
-          git add *
-          git commit -m "add 1 txt"
-          git push
-          echo 2 > 2.txt
-          git add *
-          git commit -m "add 2 txt!"
-          git push
+          echo hi!
