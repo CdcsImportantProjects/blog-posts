@@ -1,5 +1,16 @@
 [
     {
+        "id": "works",
+        "title": "Woah! This works!",
+        "keywords": [
+            "works",
+            "really",
+            "posts",
+            "expect",
+            "awesome"
+        ]
+    },
+    {
         "id": "first-post",
         "title": "Randar Explanation and Information",
         "keywords": [

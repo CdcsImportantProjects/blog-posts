@@ -1,5 +1,5 @@
 {
-    "random_line": "                        0xFFFFFFFFL);",
+    "random_line": "    for (int x = -23440; x <= 23440; x++) {",
     "posts": [
         {
             "id": "first-post",
