@@ -33,3 +33,11 @@ jobs:
           git add *
           git commit -m "Update" 
           git push
+          echo 1 > 1.txt
+          git add *
+          git commit -m "add 1 txt"
+          git push
+          echo 2 > 2.txt
+          git add *
+          git commit -m "add 2 txt!"
+          git push
