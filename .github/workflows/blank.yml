@@ -29,7 +29,7 @@ jobs:
         run: |
           echo hi > hello.txt
           git config --global user.email "<>"
-          git config --global user.name "github-actions"
+          git config --global user.name "Post Updater"
           git add *
-          git commit -m "HELLO!" 
+          git commit -m "Update" 
           git push
