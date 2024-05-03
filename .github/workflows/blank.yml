@@ -29,7 +29,7 @@ jobs:
         run: |
           git config --global user.email "<>"
           git config --global user.name "Post Updater"
-          py ./update_metadata.py
+          python3 ./update_metadata.py
           git add *
           git commit -m "Update Metadata and stuff..."
           git push
