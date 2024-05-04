@@ -1,5 +1,5 @@
 {
-    "random_line": "## What works?",
+    "random_line": "## tes",
     "posts": [
         {
             "id": "works",
@@ -24,14 +24,12 @@
             ]
         },
         {
-            "id": "works",
-            "title": "Woah! This works!",
+            "id": "awesome",
+            "title": "testing post",
             "keywords": [
-                "works",
-                "really",
-                "posts",
-                "expect",
-                "awesome"
+                "dcdcdc",
+                "hello",
+                "testing"
             ]
         },
         {
@@ -46,14 +44,12 @@
             ]
         },
         {
-            "id": "works",
-            "title": "Woah! This works!",
+            "id": "awesome",
+            "title": "testing post",
             "keywords": [
-                "works",
-                "really",
-                "posts",
-                "expect",
-                "awesome"
+                "dcdcdc",
+                "hello",
+                "testing"
             ]
         }
     ]
