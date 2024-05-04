@@ -2,16 +2,6 @@
     "random_line": "## tes",
     "posts": [
         {
-            "id": "sex",
-            "title": "i waanna have sex!!!",
-            "keywords": [
-                "meemmemme",
-                "helpppp",
-                "horynyyyyy",
-                "waanna"
-            ]
-        },
-        {
             "id": "works",
             "title": "Woah! This works!",
             "keywords": [
@@ -33,23 +23,12 @@
             ]
         },
         {
-            "id": "sex",
-            "title": "i waanna have sex!!!",
+            "id": "awesome",
+            "title": "testing post",
             "keywords": [
-                "meemmemme",
-                "helpppp",
-                "horynyyyyy",
-                "waanna"
-            ]
-        },
-        {
-            "id": "sex",
-            "title": "i waanna have sex!!!",
-            "keywords": [
-                "meemmemme",
-                "helpppp",
-                "horynyyyyy",
-                "waanna"
+                "dcdcdc",
+                "hello",
+                "testing"
             ]
         }
     ]
