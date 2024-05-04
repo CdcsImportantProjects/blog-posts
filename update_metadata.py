@@ -106,8 +106,13 @@ for folder in os.walk("./posts"):
         })
 writeFile("./metadata/search_index/index.json",json.dumps(GLOBAL_index,indent=4))
 hp_randomPosts = []
+idx = 0
 for i in range(5):
-    hp_randomPosts.append(random.choice(GLOBAL_index))
+    try:
+        hp_randomPosts.append(GLOBAL_index[idx])
+    except:
+        print("no post like that :(")
+    idx += 1
 homepage = {
     "random_line":random.choice(lines),
     "posts":hp_randomPosts
