@@ -1,0 +1,18 @@
+{
+    "id": "openhack",
+    "title": null,
+    "chapters": [
+        "Table of Contents",
+        "About",
+        "Features",
+        "Installation",
+        "Building",
+        "Contributing",
+        "License",
+        "Contact",
+        "Support",
+        "Acknowledgements"
+    ],
+    "file_url": "https://raw.githubusercontent.com/CdcsImportantProjects/blog-posts/main/posts/openhack.md",
+    "posted_at": 1716210580.2684333
+}
